@@ -1,0 +1,29 @@
+\documentclass[portuguese,12pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\addbibresource{bibliografia.bib}
+
+\title{A teoria dos conjuntos e os fundamentos da matemática - Soluções}
+
+\newcommand{\cqd}{\hfill $\square$}
+\newenvironment{solucao}[1][]{\noindent\textbf{Solução:} }{\cqd}
+\newtheorem{exercicio}{Exercício}
+
+\begin{document}
+	
+    \author{}
+	\maketitle
+    \tableofcontents
+	\include{capitulos/cap1}
+	\printbibliography
+\end{document}
