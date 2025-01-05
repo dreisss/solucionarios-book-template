@@ -1,6 +1,6 @@
 # Template de Novo Livro
 
-Este é uma sugestão para estruturar seu projeto de resolução de exercícios que visa facilitar a leitura, manutenção e colaboração em projetos similares aqui na organização **Matemática como Hobby**.
+Este template é uma sugestão de como estruturar seu projeto de resolução de exercícios que visa facilitar a leitura, manutenção e colaboração em projetos similares aqui na organização **Matemática como Hobby**.
 
 ## Estrutura do Projeto
 
