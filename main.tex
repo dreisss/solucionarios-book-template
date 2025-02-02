@@ -1,29 +1,35 @@
 \documentclass[portuguese,12pt,a4paper]{book}
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{mathtools}
 \usepackage{amssymb}
 \usepackage{amsthm}
+\usepackage{babel}
 \usepackage[colorlinks=true]{hyperref}
-\usepackage[
-backend=biber,
-style=alphabetic,
-sorting=ynt
-]{biblatex}
-\addbibresource{bibliografia.bib}
+\usepackage{enumitem}
+\usepackage[backend=bibtex,style=alphabetic,sorting=ynt]{biblatex}
 
-\title{A teoria dos conjuntos e os fundamentos da matemática - Soluções}
+\addbibresource{bibliography}
 
 \newcommand{\cqd}{\hfill $\square$}
-\newenvironment{solucao}[1][]{\noindent\textbf{Solução:} }{\cqd}
-\newtheorem{exercicio}{Exercício}
+\newenvironment{solution}[1][]{\noindent\textbf{Solução#1:} }{\cqd}
+\newcounter{ex}
+\newtheorem{exercise}[ex]{Exercício}
+
+% -----------------------------------------------------------------------------
 
 \begin{document}
-	
-    \author{}
-	\maketitle
-    \tableofcontents
-	\include{capitulos/cap1}
-	\printbibliography
+
+\title{Lógica Matemática - Soluções}
+\author{Rogério Augusto dos Santos Fajardo}
+
+\maketitle
+\tableofcontents
+
+\include{chapters/ch01}
+
+\printbibliography[title=Referências]
+
 \end{document}

@@ -1,39 +1,35 @@
-# Template de Novo Livro
+# Resolução - Lógica Matemática
 
-Este template é uma sugestão de como estruturar seu projeto de resolução de exercícios que visa facilitar a leitura, manutenção e colaboração em projetos similares aqui na organização **Matemática como Hobby**.
+<div>
+    <img src="https://img.shields.io/badge/Status-Desenvolvimento-blue" /> <img src="https://img.shields.io/badge/latex-language-red?logo=latex" />
+</div>
 
-## Estrutura do Projeto
+<br />
 
-A estrutura do projeto segue o seguinte formato:
+<div align="center">
+    <picture>
+        <img alt="Livro Lógica Matemática - Rogério Augusto dos Santos Fajardo" src="https://www.edusp.com.br/wp-content/uploads/2018/04/logica-matematica.jpg" width="260" />
+    </picture>
+</div>
 
-```
-|
-|- main.tex
-|- main.pdf
-|- bibliografia.bib
-|- capítulos/
-    |- cap1.tex
-    |- cap2.tex
-    |- cap3.tex
-    ...
-    |- cap12.tex
-```
+<br />
 
-- **`main.tex`**: Arquivo principal que organiza o documento LaTeX, incluindo pacotes, configurações gerais e os capítulos.
-- **`main.pdf`**: Documento renderizado em PDF a partir do arquivo `main.tex`.
-- **`bibliografia.bib`**: Arquivo contendo as referências bibliográficas utilizadas no projeto.
-- **`capítulos/`**: Pasta que contém os arquivos `.tex` dos capítulos, nomeados no formato `cap<número>.tex`.
+Livro: [Lógica Matemática](https://a.co/d/dTuMtYG) de _Rogério Augusto dos Santos Fajardo_.
 
+## Capítulos
 
-## Compilação do PDF
+1. [Conceitos Fundamentais da Lógica](./main.pdf) 🟥
+2. [Lógica Proposicional](./main.pdf) 🟥
+3. [Teoria Intuitiva dos Conjuntos](./main.pdf) 🟥
+4. [Lógica de Primeira Ordem - Linguagem](./main.pdf) 🟥
+5. [Lógica de Primeira Ordem - Semântica](./main.pdf) 🟥
+6. [Lógica de Primeira Ordem - Axiomatização](./main.pdf) 🟥
+7. [Metamatemática](./main.pdf) 🟥
+8. [APÊNDICE A. Formalização da Matemática em ZFC](./main.pdf) 🟥
+9. [APÊNDICE B. Álgebras de Boole](./main.pdf) 🟥
 
-Sugerimos compilar o arquivo `main.pdf`  localmente e subir junto com arquivo main.tex.
+**Status:**
 
-
-### Exemplos
-
-Para ver outros exemplos de projetos seguindo este padrão, acesse o repositório oficial da organização no GitHub: [Matemática como Hobby](https://github.com/Matematica-como-Hobby). Como exemplo, você pode explorar o repositório: [A Teoria dos Conjuntos e os Fundamentos da Matemática](https://github.com/Matematica-como-Hobby/A-Teoria-dos-Conjuntos-e-os-Fundamentos-da-Matematica).
-
-## Qual Licença Usar?
-
-Use a [Licença MIT](LICENSE), ou seja, permitindo o uso livre, modificação e redistribuição, desde que a atribuição seja mantida.
+- 🟥 - Não iniciado
+- 🟨 - Em andamento
+- ✅ - Finalizado
